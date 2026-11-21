@@ -1,0 +1,309 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &296207414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 296207416}
+  - component: {fileID: 296207415}
+  m_Layer: 0
+  m_Name: ScenarioRandomizer_Boot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &296207415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296207414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2443fe5a3302ab4aa350474f6ed3938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HorrorGame.Core.ScenarioRandomizer
+  presetPatterns:
+  - patternId: 1
+    patternTitle: "Pattern 01 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-1] 8\u968E\u8DB3\u97F3
+      \uFF0B 1\u30DC\u30BF\u30F3\u8010\u4E45 \uFF0B 1\u968E\u6B63\u9762\u51FA\u73FE\uFF06\u5929\u4E95\u843D\u4E0B"
+    scenarioType: 0
+    elevatorIntro: 0
+    elevatorMiddle: 0
+    elevatorClimax: 0
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 2
+    patternTitle: "Pattern 02 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-2] 7\u968E\u30C1\u30FC\u30D7AI\u4EBA\u5F62\u68D2\u7ACB\u3061(\u6CB9\u65AD)
+      \uFF0B \u9589\u30DC\u30BF\u30F3\u8010\u4E45 \uFF0B 1\u968E\u30C1\u30FC\u30D7\u4EBA\u5F62\u304B\u3089\u9AD8\u7CBE\u7D30\u30E2\u30C7\u30EB\u8C79\u5909\u7A81\u9032"
+    scenarioType: 0
+    elevatorIntro: 1
+    elevatorMiddle: 1
+    elevatorClimax: 1
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 3
+    patternTitle: "Pattern 03 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-3] 9\u968E\u8D64\u5ECA\u4E0B\u306E\u56C1\u304D
+      \uFF0B \u4E57\u3063\u53D6\u3089\u308C\u308B\u7BA1\u7406\u4EBA\u901A\u4FE1 \uFF0B
+      1\u968E\u507D\u8131\u51FA\u30FB\u6249\u5F37\u5236\u9589\u9396\uFF06\u80CC\u5F8C\u8972\u6483"
+    scenarioType: 0
+    elevatorIntro: 2
+    elevatorMiddle: 2
+    elevatorClimax: 2
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 4
+    patternTitle: "Pattern 04 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-4] 6\u968E\u72C2\u4E71\u30D9\u30EB\uFF06\u9699\u9593\u304B\u3089\u306E\u624B
+      \uFF0B 1\u30DC\u30BF\u30F3\u8010\u4E45 \uFF0B 1\u968E\u30C1\u30FC\u30D7\u4EBA\u5F62\u304B\u3089\u9AD8\u7CBE\u7D30\u30E2\u30C7\u30EB\u8C79\u5909\u7A81\u9032"
+    scenarioType: 0
+    elevatorIntro: 3
+    elevatorMiddle: 0
+    elevatorClimax: 1
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 5
+    patternTitle: "Pattern 05 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-5] 7\u968E\u30C1\u30FC\u30D7AI\u4EBA\u5F62\u68D2\u7ACB\u3061(\u6CB9\u65AD)
+      \uFF0B \u4E57\u3063\u53D6\u3089\u308C\u308B\u7BA1\u7406\u4EBA\u901A\u4FE1 \uFF0B
+      1\u968E\u5929\u4E95\u70B9\u691C\u53E3\u843D\u4E0B"
+    scenarioType: 0
+    elevatorIntro: 1
+    elevatorMiddle: 2
+    elevatorClimax: 0
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 6
+    patternTitle: "Pattern 06 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-6] 8\u968E\u8DB3\u97F3
+      \uFF0B \u9589\u30DC\u30BF\u30F3\u93E1\u8B66\u544A \uFF0B 1\u968E\u507D\u8131\u51FA\u30FB\u6249\u5F37\u5236\u9589\u9396\uFF06\u80CC\u5F8C\u8972\u6483"
+    scenarioType: 0
+    elevatorIntro: 0
+    elevatorMiddle: 1
+    elevatorClimax: 2
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 7
+    patternTitle: "Pattern 07 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-7] 9\u968E\u8D64\u5ECA\u4E0B\u306E\u56C1\u304D
+      \uFF0B 1\u30DC\u30BF\u30F3\u8010\u4E45 \uFF0B 1\u968E\u30C1\u30FC\u30D7\u4EBA\u5F62\u304B\u3089\u9AD8\u7CBE\u7D30\u30E2\u30C7\u30EB\u8C79\u5909\u7A81\u9032"
+    scenarioType: 0
+    elevatorIntro: 2
+    elevatorMiddle: 0
+    elevatorClimax: 1
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 8
+    patternTitle: "Pattern 08 [\u30A8\u30EC\u30D9\u30FC\u30BF\u30FCA-8] 6\u968E\u72C2\u4E71\u30D9\u30EB\uFF06\u9699\u9593\u304B\u3089\u306E\u624B
+      \uFF0B \u4E57\u3063\u53D6\u3089\u308C\u308B\u7BA1\u7406\u4EBA\u901A\u4FE1 \uFF0B
+      1\u968E\u507D\u8131\u51FA\u30FB\u80CC\u5F8C\u8972\u6483"
+    scenarioType: 0
+    elevatorIntro: 3
+    elevatorMiddle: 2
+    elevatorClimax: 2
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 9
+    patternTitle: "Pattern 09 [\u6697\u5BA4B-1] \u30C1\u30FC\u30D7\u5FC3\u970A\u5199\u771F(\u6CB9\u65AD)
+      \u2192 \u80CC\u5F8C\u30C9\u30A2\u958B\u653E \u2192 3\u679A\u76EE\u73FE\u50CF\u3067\u771F\u5F8C\u308D\u306B\u9AD8\u7CBE\u7D30\u30E2\u30C7\u30EB\u51FA\u73FE"
+    scenarioType: 1
+    elevatorIntro: 0
+    elevatorMiddle: 0
+    elevatorClimax: 0
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 10
+    patternTitle: "Pattern 10 [\u6697\u5BA4B-2] \u8D64\u9ED2\u3044\u73FE\u50CF\u6DB2\u306E\u7570\u5909
+      \u2192 \u30AC\u30E9\u30B9\u5965\u306E\u30C1\u30FC\u30D7\u5F71 \u2192 \u5B89\u5168\u5149\u7834\u58CA\uFF06\u6B63\u9762\u304B\u3089\u9AD8\u7CBE\u7D30\u30E2\u30C7\u30EB\u6025\u63A5\u8FD1"
+    scenarioType: 1
+    elevatorIntro: 0
+    elevatorMiddle: 0
+    elevatorClimax: 0
+    darkroomVariant: 1
+    darkroomClimaxType: 1
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 11
+    patternTitle: "Pattern 11 [\u6A19\u672C\u5BA4C-1] 3\u4F53\u306E\u30C1\u30FC\u30D7AI\u30AB\u30D7\u30BB\u30EB\u4EBA\u5F62\u304C\u63A5\u8FD1(\u6CB9\u65AD)
+      \u2192 \u96FB\u529B100%\u3067\u9AD8\u7CBE\u7D30\u30E2\u30C7\u30EB\u306B\u8C79\u5909\u3057\u3066\u6B63\u9762\u8972\u6483"
+    scenarioType: 2
+    elevatorIntro: 0
+    elevatorMiddle: 0
+    elevatorClimax: 0
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 0
+    mannequinClimaxType: 0
+  - patternId: 12
+    patternTitle: "Pattern 12 [\u6A19\u672C\u5BA4C-2] \u5DE6\u53F3\u30C7\u30B3\u30A4\u4EBA\u5F62\u63A5\u8FD1
+      \u2192 \u507D\u306E\u96FB\u529B\u5FA9\u65E7\u3067\u5B89\u5FC3\u3055\u305B\u305F\u76F4\u5F8C\u306B\u518D\u505C\u96FB\uFF06\u9F3B\u5148\u306B\u9AD8\u7CBE\u7D30\u30E2\u30C7\u30EB\u51FA\u73FE"
+    scenarioType: 2
+    elevatorIntro: 0
+    elevatorMiddle: 0
+    elevatorClimax: 0
+    darkroomVariant: 0
+    darkroomClimaxType: 0
+    mannequinVariant: 2
+    mannequinClimaxType: 1
+  enableSubVariantRandomization: 1
+  useNonRepeatingShuffleBag: 1
+  bootDelaySeconds: 1.3
+--- !u!4 &296207416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296207414}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 296207416}

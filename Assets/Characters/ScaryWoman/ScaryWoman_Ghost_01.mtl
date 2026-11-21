@@ -1,0 +1,43 @@
+newmtl Face_Mat
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+map_Kd Face_Skin_Texture.png
+Ks 0.150 0.150 0.150
+Ns 30.0
+d 1.0
+illum 2
+
+newmtl Dress_Mat
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+map_Kd Dress_Texture.png
+Ks 0.150 0.150 0.150
+Ns 30.0
+d 1.0
+illum 2
+
+newmtl Hair_Mat
+Ka 1.000 1.000 1.000
+Kd 0.030 0.040 0.050
+Ks 0.150 0.150 0.150
+Ns 30.0
+d 1.0
+illum 2
+
+newmtl Eye_Mat
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+map_Kd Eye_Texture.png
+Ks 0.150 0.150 0.150
+Ns 30.0
+d 1.0
+illum 2
+
+newmtl Mouth_Mat
+Ka 1.000 1.000 1.000
+Kd 0.030 0.015 0.015
+Ks 0.150 0.150 0.150
+Ns 30.0
+d 1.0
+illum 2
+

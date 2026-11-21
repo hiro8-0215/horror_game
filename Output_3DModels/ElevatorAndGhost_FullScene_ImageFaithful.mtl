@@ -1,0 +1,8 @@
+newmtl ElevatorAndGhost_FullScene_ImageFaithful_Mat
+Ka 1.000 1.000 1.000
+Kd 1.000 1.000 1.000
+Ks 0.150 0.150 0.150
+Ns 30.0
+d 1.0
+illum 2
+map_Kd ElevatorAndGhost_FullScene_ImageFaithful_Texture.png
